@@ -60,6 +60,7 @@ flutter:
   assets:
     - assets/images/me.jpg
     - assets/images/01-trame.png
+    - assets/images/qr.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

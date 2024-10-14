@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
     return Scaffold(
         // backgroundColor: ,
         appBar: AppBar(
-          title: const Text("HELLO FROM A STATLESS Widget"),
+          title: const Text("BizzCard"),
           centerTitle: true,
           backgroundColor: Colors.blueAccent,
         ),
