@@ -35,7 +35,7 @@ class _QuizPlaygroundState extends State<QuizPlayground> {
       if (currentQuestionIndex < category.questions.length - 1) {
         currentQuestionIndex++;
       } else {
-        Navigator.pushNamed(context, '/score_view', arguments: {
+        Navigator.pushReplacementNamed(context, '/score_view', arguments: {
           'score': score,
           'totalQuestions': category.questions.length,
           'categoryName': category.name,
